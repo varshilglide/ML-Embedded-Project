@@ -1,0 +1,248 @@
+Q: What is Qeexo AutoML?
+--> Leveraging sensor data, Qeexo AutoML is an automated, end-to-end machine learning platform that creates machine learning models for embedded devices. 
+--> Developers can utilize Qeexo AutoML to collect, label, analyze sensor data, and automatically generate commercial-quality ML models to run at the Edge.
+
+Q: Demo of Qeexo AutoML: https://www.youtube.com/watch?v=gQwIzi7uEOQ
+
+Q: Steps of Demo?
+--> there are some steps:
+
+1. Machine Learning is moving to embedded processors on edge devices improving privacy, latency, and availability.
+ 
+2. But given limited computation power, memory size, and battery life, building machine learning solutions for edge devices is challenging.
+
+3. Achieving commercial-grade performance requires a team of machine learning engineers, testing algorithms, and tuning models.
+
+4. Qeexo AutoML is an intuitive end-to-end machine learning platform that automates labor-intensive tasks, freeing machine learning engineers to perform mission-critical R&D.
+
+5. Qeexo AutoML is sensor-agnostic and can support multiple data streams, regardless of hardware.
+
+6. Data from user-selected sensors can be collected and labeled in real-time, or uploaded from an existing datastore.
+
+6. Data is then automatically cleaned and preprocessed before training, and can easily be visualized for analysis and quality assurance.
+
+7. Features are automatically extracted from the data and weighted based on importance.
+
+8. Qeexo AutoML offers a wide variety of machine learning algorithms, including regressors, decision trees, and neural networks.
+
+9. Metrics are displayed after training allowing users to select the best algorithms and parameters for their data, use case and hardware.
+
+10. A selected model is deployed to target hardware for living testing with one simple click.
+
+
+Q: Definitions of Qeexo AutoML?
+
+--> Qeexo AutoML is a software tool that enables automated machine learning (AutoML) for embedded and mobile devices. 
+--> It is developed by Qeexo, a company specializing in developing solutions for sensor data analysis and machine learning for edge devices.
+
+Q: What is mainly use case of Qeexo AutoML Software?
+--> The main use case of Qeexo AutoML software is to enable the development of custom machine-learning models for edge devices with limited resources.
+
+--> Specifically, Qeexo AutoML can be used for a variety of applications, such as:
+
+1. Gesture Recognition: Qeexo AutoML can be used to develop machine-learning models that recognize hand gestures using data from the accelerometer and gyroscope sensors. This can be applied to a range of devices, including wearables, smartphones, and IoT devices.
+
+2. Activity Recognition: Qeexo AutoML can also be used to build machine learning models that recognize different physical activities, such as walking, running, and cycling, using data from sensors like the accelerometer and gyroscope.
+
+3. Voice Recognition: Qeexo AutoML can be used to develop machine learning models that recognize voice commands or speech using audio data. This can be applied to a range of voice-enabled devices, including smart speakers, smartphones, and wearables.
+
+4. Anomaly Detection: Qeexo AutoML can be used to develop machine-learning models that detect anomalies in sensor data, such as sudden changes in vibration patterns or temperature. This can be applied to various applications, including predictive maintenance and industrial IoT.
+
+
+Q: Which are the machine learning algorithms used in Qeexo AutoML?
+
+1. Decision Trees: Decision trees are a type of algorithm used for classification and regression analysis. They are used to segment the data based on a series of decisions or questions, resulting in a tree-like structure.
+
+2. Random Forest: Random forests are an ensemble learning method that combines multiple decision trees. Each tree in the forest is built using a subset of the training data and a random subset of the features. The final prediction is based on the average prediction of all trees in the forest.
+
+3. Support Vector Machines (SVM): SVM is a type of algorithm used for classification and regression analysis. It creates a boundary between the data points in feature space and aims to maximize the margin between different classes.
+
+4. Neural Networks: Neural networks are a type of machine learning algorithm inspired by the structure of the human brain. They consist of layers of nodes that process and transform data, resulting in the final output.
+
+5. K-Nearest Neighbors (KNN): KNN is a non-parametric algorithm that is used for classification and regression analysis. It finds the k-nearest neighbors to a data point and predicts the output based on the most common class among those neighbors.
+
+6. Naive Bayes: Naive Bayes is a probabilistic algorithm that is used for classification problems. It calculates the probability of a data point belonging to a particular class based on the probability of each feature given that class.
+
+
+Q: Inspection Process in Qeexo AutoML?
+
+--> Place product on QA platform -> Run Product -> ML Solution checks product quality -> Displays GOOD or BAD.
+
+Q: Advantages of Qeexo AutoML Advantages?
+
+--> Built upon the quality inspection solution.
+--> Can utilize additional sensors such as environmental sensors, acoustic sensors, etc.
+--> Ensure the product continues to function in the field, under various conditions
+--> With enough data, predictive maintenance can be achieved – knowing when the product is likely to fail and notify personnel for replacement
+
+Q: Which main algorithms are used in Qeexo AutoML?
+
+--> GBM, XGBoost, Isolation Forest, Random Forest, Decision Tree, SVM, Local Outlier Factor, Naive Bayes, Logistic Regression, ANN, CNN, RNN, CRNN.
+
+==> Machine Learning that Runs on a Cortex-M0! :
+
+--> Smaller, Faster, better
+--> Machine learning models built with Qeexo AutoML are highly optimized and have an incredibly small memory footprint.
+--> Models are designed to run locally on embedded devices (as small as a Cortex-M0!) – ideal for ultra-low-power, low-latency applications on MCUs and other highly constrained platforms.
+
+==> Automatically Build ML Solutions
+
+--> Faster and easier than ever before.
+
+Q: How does Qeexo AutoML work?
+
+--> Step 1: Define the Project (Ex: Classification)
+--> Step 2: Select Sensors and Target Hardware
+--> Step 3: Collect/Upload Data
+--> Step 4: Automated Machine Learning
+--> Step 5: Deploy/Download ML Package
+
+
+Q: What  are the Qeexo AutoML Features?
+
+--> Features:
+
+1. Optimized for the Edge:
+--> Supports Arm® Cortex®-M0-to-M4 class MCUs and other constrained environments
+
+2. Leverages sensor data:
+--> Ingests data from multiple streams (sensor fusion) and is sensor agnostic
+
+3. Wide range of ML methods:
+--> Compares results from many algorithms: regressors, decision trees & neural nets
+
+4. Automated feature extraction:
+--> Generates and weights features from your data for the best performance
+
+5. Intuitive user experience:
+--> Click-through UI with no coding required
+
+6. Data visualization:
+--> Visualize collected or uploaded data to understand patterns and problems
+
+7. Performance reporting:
+--> Provides model performance summaries, visualizations, and recommendations
+
+8. Easy deployment:
+--> Translates models into C to compile and deploy to target embedded hardware
+
+9. Custom hardware integration:
+--> Option to add Qeexo AutoML support to your specific hardware
+
+
+Q: Qeexo AutoML Challenges, Solutions, Benefits:
+
+==> Challenges:
+
+1. Severe shortage of skilled resources
+2. Machine learning is labor-intensive and time-consuming
+3. Highly constrained environments are difficult to work with
+
+==> Solutions:
+
+1. Replaces the need for disparate experts
+2. Automates many of the most tedious steps and puts in guardrails
+3. Translates models to C for deployment to embedded devices
+
+==> Benefits:
+
+1. Maximizes the efficiency of data science teams
+2. Eliminates human-induced errors and significantly shortens time required
+3. Builds machine learning models optimized for the Edge
+
+
+Q: How does QeexoML work on the client side?
+
+--> Steps:
+
+1. PRE-PROJECT:
+--> Discovery & Feasibility: Feasibility Study with client's use case and historic data.
+
+2. PHASE 1:
+--> ML Development & Deployment: Qeexo works with clients to deploy commercial machine-learning solutions.
+
+3. PHASE 2(AutoML):
+--> Qeexo AutoML Customization: Qeexo customizes existing Qeexo AutoML platform for client’s specific use case(s) & needs
+
+4. PHASE 3:
+--> Hand-off & Training: Qeexo provides knowledge transfer to empower client team to take over future projects
+
+
+Q: How Qeexo Model Converter work?
+--> Qeexo Model Converter is an API service that optimizes existing tree-based machine learning models to run on Arm Cortex-M0 to Cortex-M4 platforms.
+
+--> Step 1: Tree-based ML Models in the ONNX format
+--> Step 2: Qeexo Model Converter API
+--> Step 3: Smaller, more optimized models for the edge.
+
+Q: Key Features of Qeexo Model Converter?
+
+==> Features:
+
+1. Patent-pending quantization technology for tree-based models:
+--> Qeexo Model Converter quantizes existing pre-built models to reduce memory consumption so they can fit onto constrained embedded devices.
+
+2. Users can customize memory constraints:
+--> Need models of specific sizes? Qeexo Model Converter will generate the best-performing model under a given size.
+
+3. Takes ONNX file format as input; can handle multiple tree formats
+--> Gradient Boosting Machine (GBM), Random Forest (RF), and XGBoost (XGB) models are currently supported. New models (including neural networks) will be added in the near future.
+
+4. Generates optimized object code for Cortex-M0 to Cortex-M4 platforms
+--> Qeexo Model Converter outputs optimized object code that can readily be integrated into codebase for embedded platforms.
+
+
+Q: Which are the applications of Qeexo AutoML?
+--> there are several applications:
+
+1. Industrial
+
+2. Smart Home/Appliances:
+
+--> Compared to traditional, threshold-based logic, devices equipped with machine learning can better make sense of the sensor data to make appliances around the consumers’ homes even smarter.
+--> Models built with Qeexo AutoML run on-device, so consumers’ data is not sent to the cloud, preserving their privacy and saving data and infrastructure costs.
+--> Models built with Qeexo AutoML are highly power-efficient, making battery-powered devices feasible, without being tethered to the wall.
+
+3. Medical (Wearable Medical/Biometric Devices):
+
+--> Hospital visits are expensive and inconvenient for patients, but at-home monitoring is intermittent at best. 
+--> Today’s medical wearables only record the patients’ biometric data, to be sent to the doctor a few weeks later for analysis – missing critical alerts that can sometimes mean life and death.
+
+--> Due to their compact form factor, wearable devices are highly constrained in processing power, memory size, and battery life.
+--> Current medical wearables such as ECG patches cannot provide real-time continuous monitoring & analysis.
+--> Qeexo can downsize machine learning models, allowing them to run on ultra-low-power MCUs without sacrificing accuracy.
+--> These “tinyML” models enable wearable devices/patches to monitor a patient’s heart condition continuously on a coin-cell battery.
+
+
+4. SmartPhone (FingerSense):
+
+--> By understanding how a user is touching the screen, FingerSense elevates the user experience of touch-enabled devices, making them more intelligent, more powerful, and easier to use.
+--> Powered by Qeexo AutoML, FingerSense is the world’s only software solution to distinguish between a fingerpad, knuckle, nail, or passive stylus tip and eraser, revolutionizing the way we interact with touch surfaces.
+--> Qeexo AutoML leverages data from existing sensors on modern mobile devices to build FingerSense models, without the cost or space required for additional hardware.
+--> FingerSense is compatible with any operating system, giving all mobile device manufacturers the ability to elevate the user experience of their products.
+
+==> EarSense:
+
+--> EarSense is Qeexo’s software-only alternative to the physical proximity sensor. 
+--> Qeexo’s proprietary solution allows mobile devices to recognize when the face and ears are near or in contact with the screen, rejecting unwanted touches during phone calls and enabling bezel-free designs.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Special Notes:
+
+==> Qeexo has announced the availability of the first automated ML platform integration for Arm Keil MDK. 
+==> The Qeexo AutoML platform supports a wide range of machine learning algorithms and is designed for lightweight Cortex-M0 to -M4 class processors with ultra-low latency and power consumption.
+
+

@@ -1,0 +1,11 @@
+Q - 1. Can you explain what SensiML is and how it works?
+
+--> SensiML is a software platform that enables developers to create intelligent Internet of Things (IoT) devices using sensor data. The platform uses machine learning to automatically identify patterns in sensor data and build models that can be used to classify or predict events in real-time.
+
+==> SensiML works by following a few basic steps:
+
+1. Data Collection: The first step in building an intelligent IoT device is to collect data from the sensors that will be used. This data is typically collected over a period of time and can include both labeled and unlabeled data.
+
+2. Model Building: Once the data has been collected, SensiML uses machine learning algorithms to automatically build a model that can be used to classify or predict events in real-time. This process involves identifying patterns in the data and creating a mathematical model that can be used to make predictions based on new data.
+
+3. Model Deployment: Once the model has been built, it can be deployed to the IoT device, where it can be used to classify or predict events in real-time. This allows the device to make intelligent decisions based on the data it is collecting.

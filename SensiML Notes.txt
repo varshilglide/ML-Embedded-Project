@@ -1,0 +1,79 @@
+SensiML:
+
+Q: Key-Benefits of SensiML?
+--> There are some benefits of SensiML:
+
+1. Raw Signal Capture:
+--> Create compact algorithms that execute on tiny IOT endpoints, not in the cloud.
+
+2. Data Insight Labeling:
+--> Collect accurate traceable, version-controlled datasets.
+
+3. Algorithm generation:
+--> Utilized advanced AutoML code-gen to quickly produce autonomous working device code.
+
+4. Firmware code generation:
+--> Choose your interface, and level of AI Expertise and retain full access to every aspect of your algorithm.
+
+5. Test/Validation and Support:
+--> Build an edge-tuning model that can customize behavior as they see more data.
+
+
+Q: What is SensiML?
+
+==> SensiML brings real-time event detection to the IoT sensing endpoint with software usable by developers regardless of AI/ML skill level.
+==> Models are created using SensiML’s AutoML analytics engine that automatically generates an optimized, device-ready model maximizing accuracy within the specified resource constraints of the target hardware.
+
+==> It is intelligent sensing AI algorithms for low-powered embedded devices.
+
+
+Q: what is Data Captured Lab in SensiML?
+
+--> Treat Your Data Like the Key Asset It Is.
+--> To enable high-quality data, SensiML’s Data Capture Lab is expressly built to enable the collection, cleansing, labeling, and management of train and test datasets using a rigorous workflow supporting one too many users.
+
+--> The Data Capture Lab is an application that helps you capture, organize, and label raw data from the sensor and transform it into the events you want to detect.
+
+==> Data Collection:
+
+--> A large part of building an AI application on the edge is collecting meaningful training data. The Data Capture Lab makes this easy with several useful features including:
+
+1. Use any third-party device for real-time data collection over Serial, Bluetooth-LE, and Wi-Fi
+
+2. Robust re-training tools on an existing AI application
+
+3. Import sensor data (CSV or WAV) from any external source
+
+4. Connect to a webcam in combination with your sensor data
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Good Notes:
+
+==> For Installation: pip install SensiML
+
+==> The integration with SensiML Analytics Studio and Google’s TensorFlow Lite for Microcontrollers provides a nice end-to-end workflow for creating IoT edge models on embedded devices
